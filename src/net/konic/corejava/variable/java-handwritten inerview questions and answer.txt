@@ -1,0 +1,81 @@
+Interview Question
+===================
+Q) What is the difference between JDK, JRE and JVM?
+
+JDK 
+-----
+JDK stands for Java Development Kit.
+
+It is installable software which consist Java Runtime Environment (JRE), Java Virtual Machine (JVM), compiler (javac), interpreter (java), an archiever (.jar), document generator (javadoc) and other tools needed for java application development. (or) jdk cointains set of tools to develop java program.
+
+JRE 
+----
+JRE stands for Java Runtime Enviroment.
+JRE provides very good environment to run java applications only.
+
+JVM
+---
+JVM stands for Java Virtual Machine.
+JVM is an interpreter which is used to execute our program line by line procedure. (OR) jvm will take care of program exeution , memory allocation & de-allocation.
+
+Day 2-
+
+Variable- 
+A name which is given to a memory location is called variable.
+
+Purpose of variable is used to store the data.
+
+
+
+Datatypes 
+=========
+Datatype describes what type of value a variable must accept.
+
+Datatype also tells how much memory has to be created for a variable.
+
+1️)Primitive Data Types
+
+Primitive data types are basic, pre-defined data types in Java.
+They store simple values and are fast.
+
+Java has 8 primitive types:
+
+byte
+
+short
+
+int
+
+long
+
+float
+
+double
+
+char
+
+boolean
+
+✔ Stored in stack
+✔ Fixed size
+✔ Store actual value (not reference)
+
+2)Non-Primitive Data Types
+
+Non-primitive types are user-defined or Java-built classes.
+They store memory addresses (references).
+
+Examples:
+
+String
+
+Array
+
+Class
+
+Interface
+
+✔ Not fixed size
+✔ Created using classes
+✔ Store reference/address
+✔ More memory usage
