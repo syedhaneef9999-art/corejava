@@ -100,3 +100,108 @@ float    | IEEE 754 floating point   | 0.0     | 32 bits  | 1.23e100f, -1.23e-10
 -------------------------------------------------------------------------------------------------------------------------------
 double   | IEEE 754 floating point   | 0.0     | 64 bits  | 1.23456e300d, -1.23456e-300d, 1e1d            | up to 16 decimal digits
 -------------------------------------------------------------------------------------------------------------------------------
+
+Day 3
+========
+Operators:Operator is a symbol which is used to perform some operations on operands.
+
+ex:
+	c = a + b; 
+
+	Here = and + are operators. 
+	Here a,b and c are operands.
+	
+1) Assignment Operators
+
+Statement: Assignment operators are used to assign values to variables.
+
+Operators: =, +=, -=, *=, /=, %=
+
+Example:
+
+int a = 10;   // assignment
+a += 5;       // a = a + 5 → 15
+a *= 2;       // a = a * 2 → 30
+
+2) Ternary / Conditional Operator
+
+Statement: Ternary operator is a short form of if–else that returns a value.
+
+Operator: condition ? value1 : value2
+
+Example:
+
+int age = 17;
+String result = (age >= 18) ? "Adult" : "Minor";
+
+3) Logical Operators
+
+Statement: Logical operators are used to combine multiple boolean conditions.
+
+Operators: &&, ||, !
+
+Example:
+
+boolean a = true, b = false;
+System.out.println(a && b); // false
+System.out.println(a || b); // true
+System.out.println(!a);     // false
+
+4) Bitwise Operators
+
+Statement: Bitwise operators perform operations on binary (bit-level) data.
+
+Operators: &, |, ^, ~
+
+Example:
+
+int a = 5;  // 0101
+int b = 3;  // 0011
+System.out.println(a & b); // 1  (0001)
+
+5) Arithmetic Operators
+
+Statement: Arithmetic operators perform basic mathematical operations.
+
+Operators: +, -, *, /, %
+
+Example:
+
+int a = 10, b = 3;
+System.out.println(a + b); // 13
+System.out.println(a % b); // 1
+
+6) Relational Operators
+
+Statement: Relational operators compare two values and return true or false.
+
+Operators: >, <, >=, <=, ==, !=
+
+Example:
+
+int x = 10, y = 20;
+System.out.println(x < y);  // true
+System.out.println(x == y); // false
+
+7) Shift Operators
+
+Statement: Shift operators move the bits of a number left or right.
+
+Operators: <<, >>, >>>
+
+Example:
+
+int a = 5;        // 0101
+System.out.println(a << 1); // 10 (1010)
+
+8) Unary Operators
+
+Statement: Unary operators work on a single operand, mostly used for increment/decrement and negation.
+
+Operators: ++, --, +, -, !
+
+Example:
+
+int a = 5;
+System.out.println(++a); // 6 (pre-increment)
+System.out.println(a--); // 6 (post-decrement → now 5)
