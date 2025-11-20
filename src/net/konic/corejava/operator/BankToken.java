@@ -31,5 +31,7 @@ public class BankToken {
             token++;
             System.out.println("Token: " + token);
         }
+
+        sc.close();
     }
 }
