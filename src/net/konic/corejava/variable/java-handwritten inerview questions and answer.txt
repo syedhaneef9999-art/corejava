@@ -205,3 +205,208 @@ Example:
 int a = 5;
 System.out.println(++a); // 6 (pre-increment)
 System.out.println(a--); // 6 (post-decrement → now 5)
+
+Day 5
+====================================================================
+Control statements
+===================
+Control statement enables the programmer to control the flow of the program.
+
+Control statement allows the programmer to make decisions, to jump from one section of code to another section and to execute the code repeatedly.
+
+i) if stmt 
+--------------
+It is used to execute the source code only if our condition is true.
+syntax:
+------
+	if(condition)
+	{
+		-
+		- //code to be execute 
+		-
+	}
+
+
+ii) if else stmt 
+=================
+It is used to execute the source code either our condition is true or false.
+
+syntax:
+-------
+	if(condition)
+	{
+		- //code to be execute if cond is true  
+	}
+	else
+	{	
+		- //code to be execute if cond is false 
+	}
+
+iii) if else if ladder 
+======================
+It is used to execute the source code based on multiple conditions.
+
+syntax:
+------
+	if(cond1)
+	{
+		- //code to be execute if cond1 is true 
+	}
+	else if(cond2)
+	{
+		- //code to be execute if cond2 is true 
+	}
+	else if(cond3)
+	{
+		- //code to be execute if cond3 is true 
+	}
+	else 
+	{
+		- //code to be execute if all conditions are false	
+	}
+
+iv) nested if stmt 
+===================
+If stmt contains another if stmt is called nested if statement.
+
+syntax:
+------
+	if(condition)
+	{
+		if(condition)
+		{
+			-
+			- //code to be execute 
+			-	
+		}
+	}
+v) switch case 
+===============
+It is used to execute the source code based on multiple conditions.
+
+It is similar to if else if ladder.
+
+A switch case is used to read the options from the enduser.
+
+syntax:
+------
+	switch(condition/expression)
+	{
+		case  value1:  //code to be execute 
+				break stmt;
+
+		case  value2:  //code to be execute 
+				break stmt; 
+		-
+		-
+		default :     //code to be execute if all cases are false  
+	}
+2) Iteration statement
+======================
+Iteration statement is used to execute the source code for multiple times.
+
+Iteration statement is possible by using loops.
+
+i) do while loop 
+----------------
+It is used to execute the source code how long our condition is true.
+
+syntax:
+------
+	do
+	{
+		-
+		- //code to be execute 
+		-
+	}while(condition);
+ii) while loop 
+---------------
+It is used to execute the source code how long our condition is true.
+
+syntax:
+------
+	while(condition)
+	{
+		-
+		- //code to be execute 
+		-	
+	}
+iii) for loop 
+==============
+It is used to execute the source code how long our conditions is true.
+
+syntax:
+-------
+	for(initialization;condition;increment/decrement)
+	{
+		-
+		- //code to be execute
+		-
+	}
+What is Debugging?
+
+Debugging is the process of finding, understanding, and fixing errors (bugs) in a program.
+
+It allows you to see the program line-by-line, check variable values, and understand why something is not working.
+Purpose of Debugging
+
+Debugging is done to:
+
+1️⃣ Identify the exact line where the problem occurs
+
+Example:
+Divide by zero, wrong loop condition, null pointer, etc.
+
+2️⃣ Understand how the program flows
+
+You see how your code runs step by step.
+
+3️⃣ Find incorrect logic
+
+Example: wrong conditions, wrong calculations, infinite loops.
+
+4️⃣ Fix errors before the program goes to production
+
+Debugging helps remove bugs early.
+
+5️⃣ Improve program quality and performance
+
+A debugged code behaves more correctly and efficiently.
+
+🛠 Uses of Debugging
+
+Debugging helps you:
+
+✔ Watch variable values
+
+See how values are changing during execution.
+
+✔ Set breakpoints
+
+Stop program at a specific line to inspect data.
+
+✔ Step through code
+
+Step Over → go to next line
+
+Step Into → go inside a method
+
+Step Out → come out of the method
+
+✔ Catch exceptions
+
+Find why your code crashed:
+
+NullPointerException
+
+ArrayIndexOutOfBounds
+
+ArithmeticException
+
+✔ Test logic
+
+Check loops, conditions, operators, and calculations.
+
+✔ Understand program behavior
+
+Beginners learn faster by debugging line-by-line.
