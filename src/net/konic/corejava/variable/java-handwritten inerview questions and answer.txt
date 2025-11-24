@@ -410,3 +410,12 @@ Check loops, conditions, operators, and calculations.
 ✔ Understand program behavior
 
 Beginners learn faster by debugging line-by-line.
+
+Day 6:
+=======================================================
+
+The Scanner class in Java is used to take input from the console or command prompt.”
+
+break statement:The break statement is used to stop/exit a loop immediately.
+
+Continue statement:The continue statement skips the current iteration of the loop.

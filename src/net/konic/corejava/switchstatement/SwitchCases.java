@@ -1,17 +1,18 @@
-package net.konic.corejava.conditionalstatements;
+package net.konic.corejava.switchstatement;
 
 import java.util.Scanner;
 
-public class Demo {
+public class SwitchCases {
+
 	public static void main(String[] args) {
-
 		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter option (1-3): ");
+        int option = sc.nextInt();
+        
+        switch(option)
 
-		System.out.print("Enter option (1-4): ");
-		int i = sc.nextInt();
-
-		switch (i) {
-		case 1:
+        {
+        case 1:
 			System.out.println("Data Pack Selected");
 			break;
 		case 2:
@@ -26,8 +27,7 @@ public class Demo {
 		default:
 			System.out.println("Invalid Option");
 		}
-System.out.println("hi");
-		sc.close();
+        	sc.close();
 	}
 
 }
