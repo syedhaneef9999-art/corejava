@@ -7,7 +7,7 @@ public class OddNumbersSwitch {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter limit: ");
-        int limit = sc.nextInt();   // user input
+        int limit = sc.nextInt();   
 
         for (int i = 1; i <= limit; i++) {
 
