@@ -419,3 +419,39 @@ The Scanner class in Java is used to take input from the console or command prom
 break statement:The break statement is used to stop/exit a loop immediately.
 
 Continue statement:The continue statement skips the current iteration of the loop.
+
+Day 7:
+============================
+OOPS
+====
+OOPS stands for Object Oriented Programming System/Structure.
+
+A technology is said to be object oriented if it supports following features.
+ex:
+	class
+	object 
+	Abstraction 
+	Encapsulation 
+	Inheritance and 
+	Polymorphism
+	
+Class:
+A class is a blue print of an object.
+
+A class is a collection of objcts.
+
+A class is a logical entity that contains variables and methods.
+
+It is a collection of properties and behaviours.
+
+Object:
+It is a outcome of a blue print.
+
+An object is an instance of a class where memory is allocated for the variables.
+
+It is the real-world entity created using the class blueprint.
+
+An object contains the values of properties and performs the behaviours defined inside the class.
+
+
+
