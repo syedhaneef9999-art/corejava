@@ -453,5 +453,38 @@ It is the real-world entity created using the class blueprint.
 
 An object contains the values of properties and performs the behaviours defined inside the class.
 
+Day 8:
+==========================================
+Methods -> Methods are used to perform some operation / action 
+-> In a class we can write any no. of methods including main method
+
+What is Method Declaration? 
+Method declaration means we are going to decide what is the name of the method, what 
+are the parameters it will take and what kind of value is return by the method.
+
+syntax: returntype methodname(list of parameters);
+
+What is return type?
+ return type is data type that indicates what type of value is return by the particular 
+method. 
+-> return type can be any primitive type or array type or reference type 
+-> if method does not return any value, then return type must be specified using a java
+keyword called "void"
+ 
+ -> specifying return type is mandatory 
+
+What is method name?
+ -> To identify and access the method we should give a suitable name for a method which is 
+called as method name. 
+-> a method name can be any valid java identifier. 
+-> specifying method name is mandatory 
+
+What are method parameters? 
+-> parameters are the variables that will receive the values that are passed into the. 
+particular method on which data method will perform the operations.
+ -> we can write 0 or more number of parameters of any primitive type or array type or 
+reference type 
+-> specifying parameters is optional. 
+
 
 
