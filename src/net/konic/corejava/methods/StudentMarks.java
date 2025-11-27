@@ -35,8 +35,8 @@ public class StudentMarks {
     public static void main(String[] args) {
         StudentMarks sm = new StudentMarks();
 
-        sm.totalMarks(60, 70, 80);
-        sm.averageMarks(210, 3);
+        sm.totalMarks(69, 70, 80);
+        sm.averageMarks(219, 3);
         sm.isPass(210);
         sm.grade(75);
     }

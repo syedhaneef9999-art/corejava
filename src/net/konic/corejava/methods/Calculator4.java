@@ -6,7 +6,7 @@ public class Calculator4 {
 	int a= 6;
 	int b=5;
 	int c=a*b;
-	
+	System.out.println(c);
 	return c;
 	}	
 	
