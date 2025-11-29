@@ -16,7 +16,8 @@ public class EvenOddCheck {
 
 		public static void main(String[] args) {
 			EvenOddCheck eov = new EvenOddCheck();
-			eov.Number(17);
+		boolean op	=eov.Number(17);
+		System.out.println(op);
 
 		}
 
