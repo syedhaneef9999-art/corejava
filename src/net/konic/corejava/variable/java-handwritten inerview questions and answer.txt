@@ -486,5 +486,31 @@ particular method on which data method will perform the operations.
 reference type 
 -> specifying parameters is optional. 
 
+Day 9:
+-------------------------------------------------------------------------
+instance variables:
+==================
+-> Variables which are declared inside the class and outside the method are called as 
+instance variables 
+-> instance variables can be accessed by all the methods available in the class thats why the 
+are called as Global Variables.
+ -> Initialization is optional for instance variables 
+ > Instance variables are called as Object variables 
+ -> When we create the object, then only memory will be allocated for instance variables 
+Note: If we create 2 objects, then 2 times memory will be allocated for instance variables
+ -> If we don't initialize instance variable, it will be initialized with default value based on 
+datatype when the object is created 
+-> Every Object will maintain its own copy of the instance variable 
+
+Local Variables:
+====================== 
+-> The variables which are declared inside the method or constructor or block are called as local variables
+-> If we declare a variable with in the method, then that variable can be used / accessed only with in that method 
+-> Before using local variables, we have to initialize them 
+-> If we create a variable with in the method, memory will be allocated for that variable 
+when that method is executing. After that method execution completed, local variable will 
+be deleted from memory
+
+
 
 
