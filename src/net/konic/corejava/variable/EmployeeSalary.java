@@ -27,6 +27,9 @@ public class EmployeeSalary {
 	public static void main(String[] args) {
 		EmployeeSalary es=new EmployeeSalary();
 		es.setDetails("Haneef", 34567.98);
+		System.out.println("Employee Name: " + es.name);
+        System.out.println("Monthly Salary: " + es.salary);
+		
 		double returns=es.getYearlySalary();
 		System.out.println(returns);
 		
