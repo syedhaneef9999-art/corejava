@@ -511,7 +511,16 @@ Local Variables:
 when that method is executing. After that method execution completed, local variable will 
 be deleted from memory
 
-
-
+Day 10-
+============================
+A constructor is a special method that is used to initialize an object / instance variables. 
+--->If we don't declare a constructor in the class then JVM builds a default constructor for 
+that class. This is known as default constructor. 
+Rules of the constructor 
+• Constructor name must be same as Class Name 
+• Constructor cannot take any return type but if we write any return type then the 
+code is valid but it is considered as normal method 
+• We cannot return any value from the constructor 
+• Constructors can take parameters or can be empty
 
 
