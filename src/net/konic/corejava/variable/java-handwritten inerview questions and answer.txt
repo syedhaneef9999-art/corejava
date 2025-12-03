@@ -522,5 +522,19 @@ Rules of the constructor
 code is valid but it is considered as normal method 
 • We cannot return any value from the constructor 
 • Constructors can take parameters or can be empty
-
+Day 11-
+======================================
+Static Variables ->
+ The variables which are declared inside the class and outside the method with 'static' 
+keyword are called as static variables 
+-> Static variables are class level variables 
+-> When class is loaded into JVM then immediately memory will be allocated for static 
+variables
+ -> Memory will be allocated for static variables only once when the class is loaded into JVM 
+ -> All objects of the class will maintain same copy of the static variables 
+ -> Static variables we will access using class name 
+ 
+Q)When to declare variable as static or non-static? 
+-> If we want to store different value based on object then use instance variable 
+-> If we want to store same value for all objects then use static variable 
 
