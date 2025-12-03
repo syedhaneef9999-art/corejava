@@ -2,7 +2,8 @@ package net.konic.corejava.constructor;
 
 class Car {
     String brand; 
-    int price; 
+    int price;
+    
 }
 
 public class Test {
