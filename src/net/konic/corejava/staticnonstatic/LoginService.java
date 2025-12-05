@@ -13,10 +13,10 @@ public class LoginService {
 
     public static void main(String[] args) {
 
-        // Call static → no object
+        
         LoginService.validateUser("Haneef");
 
-        // Instance method → needs object
+        //instane //non stati
         LoginService ls = new LoginService();
         ls.logout();
     }
