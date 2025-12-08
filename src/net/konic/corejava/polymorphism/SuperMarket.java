@@ -12,7 +12,7 @@ public class SuperMarket {
 	void generatebill(int amount, int discount, int tax) {
         int afterDiscount = amount - (amount * discount / 100);
         int finalAmount = afterDiscount + (afterDiscount * tax / 100);
-        System.out.println("Final Bill: ₹" + finalAmount);
+        System.out.println("Final Bill:" + finalAmount);
     }
 	public static void main(String[] args) {
 		SuperMarket sm=new SuperMarket();
