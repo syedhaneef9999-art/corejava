@@ -538,3 +538,30 @@ Q)When to declare variable as static or non-static?
 -> If we want to store different value based on object then use instance variable 
 -> If we want to store same value for all objects then use static variable 
 
+Day 11-
+=======================================================
+ 
+Polymorphism 
+-> Polymorphism means defining one entity with multiple behaviours 
+-> In java we have following 2 types of poly morphisms. 
+1. Compile time polymorphism 
+2. Runtime Polymorphism
+
+ 
+Compile time Polymorphism: 
+If polymorphism is decided at the time of compilation by java compiler, then it is called as compile time polymorphism.
+note: By using the concept of method overloading we can achieve this compile time poly 
+morphism. 
+
+
+Method overloading :
+---------------------
+Method overloading means declaring multiple methods with same method name but having 
+different method signature. 
+In method overloading while writing the method signature we have to follow following 3 
+Rules 
+• Method name must be same for all methods 
+• List of parameters must be different like different type of parameters, different 
+number of parameters, different order of parameters. 
+• Return type is not considered in method overloading; it means we never decide 
+method overloading with return type 
