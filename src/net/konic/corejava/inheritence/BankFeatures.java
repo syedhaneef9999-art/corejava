@@ -13,9 +13,11 @@ class Sbi extends Bank{
 public class BankFeatures {
 
 	public static void main(String[] args) {
-		Sbi s=new Sbi();
-		s.deposit();
-		s.features();
+		//Sbi s=new Sbi();
+		//s.deposit();
+		//s.features();
+		Bank b = new Sbi();   // ✔ Parent reference, child object
+        b.deposit(); 
 
 	}
 
