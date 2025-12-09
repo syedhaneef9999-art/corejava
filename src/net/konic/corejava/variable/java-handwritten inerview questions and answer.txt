@@ -565,3 +565,13 @@ Rules
 number of parameters, different order of parameters. 
 • Return type is not considered in method overloading; it means we never decide 
 method overloading with return type 
+
+Day 12
+=======================================================
+Inheritence:
+----------
+-> inheritance is the one of most important concepts of OOPS 
+-> inheritance means taking the properties of on class into another class
+-> The main advantage of inheritance is re usability 
+->  To achieve inheritance we will use ‘extends’ keyword 
+
