@@ -1,7 +1,7 @@
 package net.konic.corejava.inheritence;
 
 class Bank{
-	void deposit() {
+	 void deposit() {
 		System.out.println("Deposit successful");
 	}
 }
@@ -16,8 +16,10 @@ public class BankFeatures {
 		//Sbi s=new Sbi();
 		//s.deposit();
 		//s.features();
-		Bank b = new Sbi();   // ✔ Parent reference, child object
+		Bank b = new Sbi();   //  Parent reference, child object
         b.deposit(); 
+      
+       
 
 	}
 

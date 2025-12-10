@@ -575,3 +575,158 @@ Inheritence:
 -> The main advantage of inheritance is re usability 
 ->  To achieve inheritance we will use ‘extends’ keyword 
 
+✔ 1. What is Method Overriding?
+
+When a child class writes its own version of a method that already exists in the parent class.
+
+Example:
+class Parent {
+    void show() { System.out.println("Parent"); }
+}
+class Child extends Parent {
+    void show() { System.out.println("Child"); }
+}
+
+
+👉 Here, show() in child overrides show() in parent.
+
+⭐ 2. Why Do We Override?
+
+To modify parent class logic
+
+To provide different behaviour for child class
+
+To achieve runtime polymorphism (decided at runtime)
+
+⭐ 3. Rules of Overriding (Very Important)
+✔ Must have:
+
+Same method name
+
+Same parameters
+
+Same return type (or child type → covariant)
+
+Must be in inheritance
+
+❌ Cannot override:
+
+private methods
+
+static methods (they are hidden, not overridden)
+
+final methods
+
+Constructors
+
+❌ Access modifier cannot reduce
+
+Example:
+public → cannot become protected.
+
+⭐ 4. this Keyword (Very Simple)
+
+this = current object
+
+When do we use this?
+
+To access current class variables
+
+To avoid variable shadowing
+
+To call current constructor → this()
+
+Example of shadowing:
+class A {
+    int x = 10;
+    A(int x){
+        x = x;      // Wrong → local x assigned to itself
+    }
+}
+
+⭐ 5. super Keyword
+
+super = parent object
+
+Used for:
+
+Accessing parent variables
+
+Accessing parent methods
+
+Calling parent constructor → super()
+
+Example:
+super.x;        // parent variable
+super.msg();    // parent method
+super();        // parent constructor
+
+⭐ 6. final Keyword
+final type	Meaning
+final variable	Value cannot change
+final method	Cannot be overridden
+final class	Cannot be inherited
+⭐ 7. Covariant Return Type (Very Easy)
+
+Child method can return a subclass of parent's return type.
+
+Example:
+class Parent { Parent test(){} }
+class Child extends Parent { Child test(){} } // Allowed
+
+⭐ 8. Static Method Hiding (Not Overriding)
+class P { static void m(){} }
+class C extends P { static void m(){} }
+
+
+When you call:
+
+P p = new C();
+p.m();  // Parent version runs
+
+
+👉 Static methods depend on reference type, not object.
+
+⭐ 9. Runtime Polymorphism
+Parent p = new Child();
+p.show();   // Child version runs
+
+
+👉 Decided at runtime, not compile time.
+
+⭐ 10. Constructor Overriding?
+
+❌ NOT POSSIBLE.
+
+Constructors are never inherited, so override is impossible.
+
+⭐ 11. Full Example From PDF — Explained
+Parent p = new Child();
+p.m1();  // Child m1
+p.m2();  // Child m2
+p.m4();  // Parent static
+p.m5();  // Parent final
+
+
+m1() → overridden → child
+
+m2() → covariant return → child
+
+m4() → static → parent
+
+m5() → final → parent
+
+⭐ 12. Simple Understanding in One Line Each
+Overriding →Child changes parent method.
+
+this →Used for current class.
+
+super →Used for parent class.
+
+final →Stops change (method), stops inheritance (class), stops value change (variable).
+
+private →Not inherited → cannot be overridden.
+
+static →Class level → cannot override → only hide.
+
+constructor →Never overridden.
