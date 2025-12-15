@@ -732,3 +732,42 @@ private →Not inherited → cannot be overridden.
 static →Class level → cannot override → only hide.
 
 constructor →Never overridden.
+
+
+Day 14-
+===========================
+What is an Abstract Class?
+
+An abstract class is a class that cannot be instantiated (no object creation) and may contain abstract methods (methods without a body).
+
+👉 It is declared using the keyword abstract.
+
+abstract class ClassName {
+    // abstract and non-abstract methods
+}
+
+
+✔ Why do we use an Abstract Class?
+
+Use an abstract class when:
+
+You want common logic + rules
+
+You want to force child classes to implement some methods
+
+You want to use constructors
+
+You want partial abstraction (not 100% like interface)
+
+You want to keep state (variables)
+
+Q)Definition of Abstraction
+
+👉 Abstraction is the process of hiding implementation details and showing only essential features to the user.
+
+Day 15-
+=========================
+Interface:
+-> An interface is a fully abstract class. It includes a group of abstract methods (methods 
+without a body). 
+-> We use the interface keyword to create an interface in Java. 
