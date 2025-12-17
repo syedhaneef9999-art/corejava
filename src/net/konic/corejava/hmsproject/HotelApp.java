@@ -3,7 +3,7 @@ package net.konic.corejava.hmsproject;
 import java.util.Scanner;
 //step1: step Constants Class (Q4 & Q8)
 final class HotelConstants {
-    public static final String HOTEL_NAME = "Welcome to KONIC GRAND HOTEL";
+    public static final String HOTEL_NAME = "KONIC GRAND HOTEL";
     public static final double TAX_RATE = 0.18;
 }
 //🥈 STEP 2: Utility Class (Q11)
@@ -73,7 +73,7 @@ class DeluxeRoomService extends RoomService {
         System.out.println("Providing Deluxe Room Service");
     }
 }
-//STEP 6: Payment Interface (Q5)
+//STEP 6: Payment Interface(Q5)
 interface Payment {
     void pay(double amount);
 }

@@ -771,3 +771,12 @@ Interface:
 -> An interface is a fully abstract class. It includes a group of abstract methods (methods 
 without a body). 
 -> We use the interface keyword to create an interface in Java. 
+
+Day-16---
+===========================
+Encapsulation in Java
+✔ Definition
+
+Encapsulation is the process of wrapping data (variables) and methods into a single unit (class) and restricting direct access to data.
+Encapsulation is the process of hiding data and allowing access through methods.
+👉 Achieved using private variables + public getters & setters.
