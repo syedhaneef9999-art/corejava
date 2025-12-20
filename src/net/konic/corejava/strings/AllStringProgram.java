@@ -76,69 +76,7 @@ public class AllStringProgram {
         String sentence = "Welcome to Konic Technologies";
         System.out.println("Word Count: " + sentence.split(" ").length);
 
-     // Q16. Count Character Occurrence
-        String s = "programming";
-        char ch = 'g';
-        int count = 0;
-
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == ch) {
-                count++;
-            }
-        }
-
-        System.out.println("Occurrences of 'g': " + count);
-
-     // Q17. Palindrome Check
-        String str = "madam";
-        String rev = "";
-
-        for (int i = str.length() - 1; i >= 0; i--) {
-            rev = rev + str.charAt(i);
-        }
-
-        if (str.equals(rev)) {
-            System.out.println("Palindrome");
-        } else {
-            System.out.println("Not Palindrome");
-        }
-
-     // Q18. Remove Duplicate Characters
-        String s1 = "java";
-        String result = "";
-
-        for (int i = 0; i < s1.length(); i++) {
-            char c = s1.charAt(i);
-
-            if (result.indexOf(c) == -1) {
-                result = result + c;
-            }
-        }
-
-        System.out.println(result);
-
-
-     // Q19. First Non-Repeated Character
-        String s2 = "swiss";
-
-        for (int i = 0; i < s2.length(); i++) {
-            char c = s2.charAt(i);
-
-            if (s2.indexOf(c) == s2.lastIndexOf(c)) {
-                System.out.println("First non-repeated character: " + c);
-                break;
-            }
-        }
-
-
-        // Q20. Swap Two Strings (No 3rd Variable)
-        String x = "hello";
-        String y = "world";
-        x = x + y;
-        y = x.substring(0, x.length() - y.length());
-        x = x.substring(y.length());
-        System.out.println("String1: " + x);
-        System.out.println("String2: " + y);
+   
     }
 }
 
