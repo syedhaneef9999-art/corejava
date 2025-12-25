@@ -29,15 +29,15 @@ public class StudentList {
 	        
 	        //2
 	        
-	        System.out.println("Student at index 2: " +
-	                getStudentByIndex(2));
+	        System.out.println("Student at index 2: " + getStudentByIndex(2));
 	        //3
-	        System.out.println("Total Students: " +
-	                countStudents());
+	        System.out.println("Total Students: " + countStudents());
 	        //4
 	        if (checkStudentExists("argu")) {
 	            System.out.println("Student Found");
-	        } else {
+	        } 
+	        else 
+	        {
 	            System.out.println("Student Not Found");
 	        }
 	    
