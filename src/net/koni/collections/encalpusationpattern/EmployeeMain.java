@@ -198,7 +198,7 @@ public class EmployeeMain {
 
 	        
 	        System.out.println("After Removing Employee ID 8: "
-	                + emplist.removeEmployee(lset, 8));
+	                + emplist.removeEmployee(set, 8));
 
 	        
 	        System.out.println("Employee Count in Set: "
