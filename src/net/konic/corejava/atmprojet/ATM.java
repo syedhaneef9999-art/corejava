@@ -1,4 +1,4 @@
-package net.koni.projet;
+package net.konic.corejava.atmprojet;
 
 public class ATM {
 
@@ -6,7 +6,7 @@ public class ATM {
 
         Account account = new Account();
 
-        double withdrawAmount = 3000; 
+        double withdrawAmount = 7000; 
 
         try {
 

@@ -1,4 +1,4 @@
-package net.koni.projet;
+package net.konic.corejava.atmprojet;
 
 public class InsufficientBalanceException extends Exception{
 	
