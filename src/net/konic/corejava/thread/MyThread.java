@@ -1,4 +1,4 @@
-package net.konic.corejava.threads;
+package net.konic.corejava.thread;
 
 class MyThread extends Thread {
 	 public void run() {

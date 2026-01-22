@@ -1,4 +1,4 @@
-package net.konic.corejava.threads;
+package net.konic.corejava.thread;
 
 public class MyRunnable implements Runnable {
 
