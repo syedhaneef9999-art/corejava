@@ -12,4 +12,5 @@ module Practice {
 	exports net.konic.corejava.constructor;
 	exports net.konic.corejava.switchstatement;
 	exports net.konic.corejava.accessmodifier;
+	requires java.sql;
 }

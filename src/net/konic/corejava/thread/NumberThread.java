@@ -8,13 +8,14 @@ public class NumberThread extends Thread {
 
             System.out.println(i);
 
-           try {
-                Thread.sleep(1000); 
-           }
-           catch (InterruptedException e) {
-              
-               e.printStackTrace();
-           }
+           
+                try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				} 
+           
+           
         }
     }
 
